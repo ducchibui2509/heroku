@@ -1,0 +1,2 @@
+1. Layouts for Adding different Posts.
+2. Layout for displaying Post.

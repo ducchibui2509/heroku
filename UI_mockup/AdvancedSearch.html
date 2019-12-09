@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link href="./ShareSquareHTML_files/css" rel="stylesheet">
+    <link href="./ShareSquareHTML_files/app.css" rel="stylesheet">
+    <!--    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>-->
+
+    <!-- Styles -->
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 84px;
+        }
+
+        .links > a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+
+        /*.btn-outline-light {*/
+        /*    color: #f8f9fa;*/
+        /*    border-color: #f8f9fa;*/
+        /*}*/
+
+        /*.navbar-brand {*/
+        /*    display: inline-block;*/
+        /*    padding-top: 0.32rem;*/
+        /*    padding-bottom: 0.32rem;*/
+        /*    margin-right: 1rem;*/
+        /*    font-size: 1.125rem;*/
+        /*    line-height: inherit;*/
+        /*    white-space: nowrap;*/
+        /*}*/
+        /*#search form, #filter form {*/
+        /*    width: 100%;*/
+        /*}*/
+
+        hgroup h1 {
+            font: 500 normal 1.625em "Roboto", Arial, Verdana, sans-serif;
+            color: #2a3644;
+            margin-top: 0;
+            line-height: 1.15;
+        }
+
+        hgroup h2.lead {
+            font: normal normal 1.125em "Roboto", Arial, Verdana, sans-serif;
+            color: #2a3644;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .search-result .thumbnail {
+            border-radius: 0 !important;
+        }
+
+        .search-result:first-child {
+            margin-top: 0 !important;
+        }
+
+        .search-result {
+            margin-top: 20px;
+        }
+
+        .search-result .col-md-2 {
+            border-right: 1px dotted #ccc;
+            min-height: 140px;
+        }
+
+        .search-result ul {
+            padding-left: 0 !important;
+            list-style: none;
+        }
+
+        .search-result ul li {
+            font: 400 normal .85em "Roboto", Arial, Verdana, sans-serif;
+            line-height: 30px;
+        }
+
+        .search-result ul li i {
+            padding-right: 5px;
+        }
+
+        .search-result .col-md-7 {
+            position: relative;
+        }
+
+        .search-result h3 {
+            font: 500 normal 1.375em "Roboto", Arial, Verdana, sans-serif;
+            margin-top: 0 !important;
+            margin-bottom: 10px !important;
+        }
+
+        .search-result h3 > a, .search-result i {
+            color: #248dc1 !important;
+        }
+
+        .search-result p {
+            font: normal normal 1.125em "Roboto", Arial, Verdana, sans-serif;
+        }
+
+        .search-result span.plus {
+            position: absolute;
+            right: 0;
+            top: 126px;
+        }
+
+        .search-result span.plus a {
+            background-color: #248dc1;
+            padding: 5px 5px 3px 5px;
+        }
+
+        .search-result span.plus a:hover {
+            background-color: #414141;
+        }
+
+        .search-result span.plus a {
+            color: white;
+        }
+
+        .search-result span.border {
+            display: block;
+            width: 97%;
+            margin: 0 15px;
+            border-bottom: 1px dotted #ccc;
+        }
+
+    </style>
+</head>
+<body>
+<header class="d-flex align-self-center" style="background-color: cornsilk">
+    <div class="container">
+        <img src="./ShareSquareHTML_files/sharesquare.png">
+    </div>
+</header>
+<nav class="navbar bg-dark navbar-dark navbar-expand-md mb-5">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myToggleNav"
+                aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myToggleNav">
+            <div class="navbar-nav">
+                <a href="ShareSquareHTML.html" class="navbar-brand">Share Square</a>
+                <a class="nav-item nav-link active" href="cars.html">Cars</a>
+                <a class="nav-item nav-link " href="realestate.html">Real Estate</a>
+                <a class="nav-item nav-link " href="jobs.html">Jobs</a>
+                <a class="nav-item nav-link " href="pets.html">Pets</a>
+                <a class="nav-item nav-link " href="services.html">Services</a>
+                <a class="nav-item nav-link " href="vacationrentals.html">Vacation Rentals</a>
+            </div><!--navbar nav-->
+        </div><!--collapse-->
+        <div class="d-none d-sm-inline-block">
+            <a class="align-self-center mr-2 " href="http://127.0.0.1:8000/login">Login</a>
+
+            <span class="d-sm-inline-block align-self-center text-light mr-2"> | </span>
+            <a class="align-self-center mr-2" href="http://127.0.0.1:8000/register">Register</a>
+
+            <div id="searchButton" class="d-sm-inline-block">
+                <form class="form-inline">
+                    <input class="form-control mr-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light" type="submit">Go</button>
+                </form>
+            </div>
+            <a class="align-self-center ml-2" href="advancedsearch.html">Advanced Search</a>
+
+        </div>
+    </div><!--container-->
+</nav><!--navbar--->
+
+<div class="container">
+    <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+
+        <div class="row" id="search">
+            <div class="form-group col-sm-9 col-xs-9">
+                <input class="form-control" type="text" placeholder="Search"/>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <button type="submit" class="btn btn-block btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <form>
+
+        <div class="row" id="filter">
+            <div class="form-group col-sm-3 col-xs-6">
+                <select data-filter="make" class="filter-make filter form-control">
+                    <option value="">Select Category</option>
+                    <option value="">Show All</option>
+                    <option value="">Cars</option>
+                    <option value="">Real Estate</option>
+                    <option value="">Jobs</option>
+                    <option value="">Pets</option>
+                    <option value="">Services</option>
+                    <option value="">Vacation</option>
+                    <option value="">Rentals</option>
+                </select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <select data-filter="model" class="filter-model filter form-control">
+                    <option value="">Select Status</option>
+                    <option value="">Show All</option>
+                    <option value="">Active</option>
+                    <option value="">Expired</option>
+                </select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <select data-filter="type" class="filter-type filter form-control">
+                    <option value="">Select Time</option>
+                    <option value="">Show All</option>
+                    <option value="">Within This Week</option>
+                    <option value="">Within This Month</option>
+                    <option value="">Within 3 Months</option>
+                </select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <select data-filter="price" class="filter-price filter form-control">
+                    <option value="">Select Area</option>
+                    <option value="">Show All</option>
+                    <option value="">City of Toronto</option>
+                    <option value="">Mississauga</option>
+                    <option value="">Brampton</option>
+                    <option value="">Vaugan</option>
+                    <option value="">Markham</option>
+                    <option value="">Scarborough</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <div class="row" id="products">
+
+    </div>
+</div>
+
+<div class="container" style="margin-bottom: 1rem;">
+
+    <hgroup class="mb20">
+        <h1>Search Results</h1>
+        <h2 class="lead"><strong class="text-danger">3</strong> results were found for the search for <strong
+                class="text-danger">Lorem</strong></h2>
+    </hgroup>
+
+    <section class="col-xs-12 col-sm-6 col-md-12">
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="./ShareSquareHTML_files/vacationrental.png"
+                                                                       class="img-thumbnail" alt="Lorem ipsum"/></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-calendar" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg></span>
+
+                        <span>02/15/2014</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-clock" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg></span>
+
+                        <span>4:28 pm</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-tag" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg></span>
+
+                        <span>For rent</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+                <p class="card-text"></p>
+                <h3><a href="#" title="">MUSKOKA Cottages</a></h3>
+                <p>Rent one of Lantern Bay Resorts scenic 2 to 3 bedroom cottages in Muskoka for as low as
+                    $125/night!.</p>
+                <span class="plus"><a href="#" title="Lorem ipsum">+</a></span>
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="./ShareSquareHTML_files/cars.png"
+                                                                       class="img-thumbnail" alt="Lorem ipsum"/></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-calendar" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg></span>
+                        <span>02/13/2014</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-clock" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg></span>
+                        <span>8:32 pm</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-tag" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg></span>
+                        <span>Cars</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                <h3><a href="#" title="">2015 Toyota</a></h3>
+                <p>2015 Toyota 4Runner SR5 Grey 4.0L V6 SMPI DOHC 24V 4WD 4WD V6 SMPI DOHC 24V 4WD 4WD.</p>
+                <span class="plus"><a href="#" title="Lorem ipsum">+</a></span>
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="./ShareSquareHTML_files/pets.png"
+                                                                       class="img-thumbnail" alt="Lorem ipsum"/></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-calendar" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg></span>
+
+                        <span>01/11/2014</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-clock" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg></span>
+
+                        <span>10:13 am</span></li>
+                    <li>
+                        <span class="select-menu-item-icon"><svg class="octicon octicon-tag" viewBox="0 0 14 16"
+                                                                 version="1.1" width="14" height="16"
+                                                                 aria-hidden="true"><path fill-rule="evenodd"
+                                                                                          d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg></span>
+
+                        <span>Pets</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                <h3><a href="#" title="">K-9 Komfort Inn</a></h3>
+                <h5 class="card-subtitle">Dog and Cat Boarding and Dog Training</h5>
+                <p>Going away and need somewhere to board your pet.</p>
+                <span class="plus"><a href="#" title="Lorem ipsum">+</a></span>
+            </div>
+            <span class="clearfix border"></span>
+        </article>
+
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <div class="container">
+        <p style="text-align: center">This is copyright to Sharesquare team</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
